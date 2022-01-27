@@ -1,0 +1,50 @@
+/* Universal Selector or the default settings for css */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Body Tag */
+body {
+  color: #39a6b2;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Header Tag */
+header {
+  padding: 20px 35px;
+  background-color: #39a6b2;
+}
+
+/* H1 within header style */
+header h1 {
+  font-weight: bold;
+  font-size: 36px;
+  color: #fce138;
+  margin: 0;
+  display: inline;
+}
+
+/* a within header style */
+header a {
+  text-decoration: none;
+  color: #fce138;
+}
+
+/* nav within header style */
+header nav {
+  float: right;
+  margin: 7px 0;
+}
+
+/* li within ul within nav within header style */
+header nav ul li {
+  display: inline;
+}
+
+/* a within li within ul within nav within header style */
+header nav ul li a {
+  margin: 0 30px;
+  font-weight: lighter;
+  font-size: 22px;
+}
